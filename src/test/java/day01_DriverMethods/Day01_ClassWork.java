@@ -18,6 +18,7 @@ public class Day01_ClassWork {
     public static void main(String[] args) {
         WebDriver driver=new ChromeDriver();//Bos bir browswer actik
         driver.get("https://www.amazon.com");
+
         System.out.println("Sayfa Basligi"+driver.getTitle());
         String actualTitle= driver.getTitle();
         if (actualTitle.contains("Amazon")){
@@ -29,6 +30,7 @@ public class Day01_ClassWork {
         if (actualUrl.contains("amozon")){
             System.out.println("Url tests Passef");
         }else System.out.println("Url tests  failed");
+
         String sayfaKodlari=driver.getPageSource();
         if (sayfaKodlari.contains("Gateway")){
             System.out.println("Source Code tests Passed");

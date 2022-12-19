@@ -7,7 +7,7 @@ import java.time.Duration;
 public class Day01_ClassWork2 {
     public static void main(String[] args) {
 
-        WebDriver driver = new ChromeDriver();
+     WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));// Bu method sayfadaki her bir webelement için
         // max. bekleme süresini belirler
@@ -41,5 +41,11 @@ public class Day01_ClassWork2 {
     }
 }
 
-
+    /*
+         git init
+         git add .
+         git commit -m ""
+         git remote add origin url girin
+          git push -u origin master
+     */
 

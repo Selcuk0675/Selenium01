@@ -7,7 +7,7 @@ public class Day01_ManageMethod {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver=new ChromeDriver();//Bos bir browswer actik
 
-        //Amazon soyfasina gidelim. https://www.amazon.com/
+            //Amazon soyfasina gidelim. https://www.amazon.com/
         driver.get("https://www.amazon.com/");
 
         //Sayfanin konumunu ve boyutlarini yazdirin
